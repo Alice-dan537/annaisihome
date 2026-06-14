@@ -21,7 +21,7 @@ const productOptions = [
   "OEM Custom Program",
 ];
 
-export default function InquiryForm({ endpoint = "/api/inquiries" }) {
+export default function InquiryForm({ endpoint = "https://formsubmit.co/ajax/dzhou722@gmail.com" }) {
   const [values, setValues] = useState(initialValues);
   const [errors, setErrors] = useState({});
   const [status, setStatus] = useState({ type: "", message: "" });
@@ -65,10 +65,19 @@ export default function InquiryForm({ endpoint = "/api/inquiries" }) {
     setStatus({ type: "", message: "" });
 
     try {
+      const payload = {
+        ...values,
+        _subject: "New ANNAISI B2B Inquiry",
+        _template: "table",
+        _captcha: "false",
+      };
       const response = await fetch(endpoint, {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(values),
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: JSON.stringify(payload),
       });
       if (!response.ok) throw new Error("Submission failed");
       setValues(initialValues);

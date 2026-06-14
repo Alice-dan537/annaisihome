@@ -79,21 +79,23 @@ inquiryForms.forEach((form) => {
       submitButton.textContent = "Submitting...";
     }
 
-    const payload = Object.fromEntries(new FormData(form).entries());
+    const formData = new FormData(form);
+    formData.append("page_url", window.location.href);
+    const payload = Object.fromEntries(formData.entries());
     const endpoint = form.dataset.submitEndpoint;
 
-    const finishSuccess = () => {
+    const finishSuccess = (message) => {
       if (status) {
-        status.textContent = "Thank you. Your inquiry has been received. Our sales team will contact you soon.";
+        status.textContent = message || "Thank you. Your inquiry has been received. Our sales team will contact you soon.";
         status.classList.remove("is-error");
         status.classList.add("is-visible");
       }
       form.reset();
     };
 
-    const finishError = () => {
+    const finishError = (message) => {
       if (status) {
-        status.textContent = "Submission failed. Please email dzhou722@gmail.com or try again later.";
+        status.textContent = message || "Submission failed. Please email dzhou722@gmail.com or try again later.";
         status.classList.add("is-visible", "is-error");
       }
     };
@@ -116,14 +118,17 @@ inquiryForms.forEach((form) => {
 
     fetch(endpoint, {
       method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(payload),
+      headers: { Accept: "application/json" },
+      body: formData,
     })
-      .then((response) => {
-        if (!response.ok) throw new Error("Submission failed");
-        finishSuccess();
+      .then(async (response) => {
+        const data = await response.json().catch(() => ({}));
+        if (!response.ok || data.success === "false" || data.success === false) {
+          throw new Error(data.message || "Submission failed");
+        }
+        finishSuccess(data.message);
       })
-      .catch(finishError)
+      .catch((error) => finishError(error.message))
       .finally(finish);
   });
 });

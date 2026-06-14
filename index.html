@@ -222,14 +222,19 @@
             <h2>Build your next mattress or sofa program with a factory-direct team.</h2>
             <p>Tell us your target product, quantity, market, and packaging requirement. ANNAISI will reply with practical sourcing options.</p>
           </div>
-          <form class="inquiry-form" data-inquiry-form>
-            <label>Name<input required name="name" autocomplete="name" /></label>
-            <label>Email<input required type="email" name="email" autocomplete="email" /></label>
+          <form class="inquiry-form" data-inquiry-form data-submit-endpoint="https://formsubmit.co/ajax/dzhou722@gmail.com">
+            <input type="hidden" name="_subject" value="New ANNAISI Homepage Inquiry" />
+            <input type="hidden" name="_template" value="table" />
+            <input type="hidden" name="_captcha" value="false" />
+            <label>Name<input required name="name" autocomplete="name" placeholder="Your full name" /></label>
+            <label>Email<input required type="email" name="email" autocomplete="email" placeholder="name@company.com" /></label>
+            <label>Phone<input required type="tel" name="phone" autocomplete="tel" inputmode="tel" placeholder="+1 555 123 4567" /></label>
             <label>Country<input required name="country" autocomplete="country-name" /></label>
             <label>Company Name<input name="company" autocomplete="organization" /></label>
             <label>Product Interest<select name="interest"><option>Roll Packed Mattress</option><option>Compressed Sofa</option><option>Sofa Bed</option><option>OEM Custom Program</option></select></label>
             <label>Quantity<input name="quantity" placeholder="Estimated order quantity" /></label>
             <label class="full">Message<textarea required name="message" rows="4" placeholder="Tell us your target size, material, packing, and market."></textarea></label>
+            <label class="hp-field">Website<input name="website" tabindex="-1" autocomplete="off" /></label>
             <button class="button primary full" type="submit">Get Free Quote</button>
             <p class="form-status" data-form-status></p>
           </form>
