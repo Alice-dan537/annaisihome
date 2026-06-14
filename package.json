@@ -1,12 +1,8 @@
 {
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
+    "dev": "python3 -m http.server 5174",
+    "check": "node scripts/check-site.mjs"
   },
-  "dependencies": {
-    "next": "latest",
-    "react": "latest",
-    "react-dom": "latest"
-  }
+  "dependencies": {},
+  "devDependencies": {}
 }

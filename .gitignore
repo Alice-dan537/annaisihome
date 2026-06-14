@@ -1,0 +1,5 @@
+.DS_Store
+qa-screenshots/
+node_modules/
+.env
+.env.*

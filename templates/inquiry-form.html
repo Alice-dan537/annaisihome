@@ -1,0 +1,53 @@
+<form class="inquiry-form premium-form" data-inquiry-form data-submit-endpoint="/api/inquiries" novalidate>
+  <label>
+    <span class="field-label">Name <span class="required-mark">Required</span></span>
+    <input required name="name" autocomplete="name" placeholder="Your full name" />
+    <span class="field-error" data-error-for="name"></span>
+  </label>
+  <label>
+    <span class="field-label">Email <span class="required-mark">Required</span></span>
+    <input required type="email" name="email" autocomplete="email" placeholder="name@company.com" />
+    <span class="field-error" data-error-for="email"></span>
+  </label>
+  <label>
+    <span class="field-label">Phone <span class="required-mark">Required</span></span>
+    <input required type="tel" name="phone" autocomplete="tel" inputmode="tel" placeholder="+1 555 123 4567" />
+    <span class="field-error" data-error-for="phone"></span>
+  </label>
+  <label>
+    <span class="field-label">Company Name</span>
+    <input name="company" autocomplete="organization" placeholder="Your company or brand name" />
+    <span class="field-error" data-error-for="company"></span>
+  </label>
+  <label>
+    <span class="field-label">Country / Region</span>
+    <input name="country" autocomplete="country-name" placeholder="United States, Canada, UAE..." />
+    <span class="field-error" data-error-for="country"></span>
+  </label>
+  <label>
+    <span class="field-label">Product Requirement</span>
+    <select name="interest">
+      <option value="">Select product interest</option>
+      <option>Roll Packed Mattress</option>
+      <option>Pocket Spring Mattress</option>
+      <option>Memory Foam Mattress</option>
+      <option>Hybrid Mattress</option>
+      <option>Compressed Sofa</option>
+      <option>Sofa Bed</option>
+      <option>OEM Custom Program</option>
+    </select>
+    <span class="field-error" data-error-for="interest"></span>
+  </label>
+  <label class="full">
+    <span class="field-label">Message</span>
+    <textarea name="message" rows="5" placeholder="Tell us size, fabric, structure, order quantity, target market, packaging, and target price if available."></textarea>
+    <span class="field-hint">Optional, but detailed requirements help us quote faster.</span>
+    <span class="field-error" data-error-for="message"></span>
+  </label>
+  <label class="hp-field">Website<input name="website" tabindex="-1" autocomplete="off" /></label>
+  <div class="form-actions full">
+    <button class="button primary" type="submit">Submit Inquiry</button>
+    <p class="form-note">Required fields must be completed before submitting.</p>
+  </div>
+  <p class="form-status" data-form-status role="status" aria-live="polite"></p>
+</form>
