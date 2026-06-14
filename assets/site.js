@@ -1,3 +1,31 @@
+const whatsappNumber = "8618675853801";
+const whatsappMessage = "Hello ANNAISI, I would like to request a quote for roll packed mattresses or compressed sofas.";
+const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
+
+document.querySelectorAll(".button.whatsapp, [data-whatsapp-link]").forEach((link) => {
+  link.setAttribute("href", whatsappUrl);
+  link.setAttribute("target", "_blank");
+  link.setAttribute("rel", "noopener");
+  link.setAttribute("aria-label", "Contact ANNAISI on WhatsApp");
+});
+
+if (!document.querySelector(".floating-whatsapp")) {
+  const floatingWhatsapp = document.createElement("a");
+  floatingWhatsapp.className = "floating-whatsapp";
+  floatingWhatsapp.href = whatsappUrl;
+  floatingWhatsapp.target = "_blank";
+  floatingWhatsapp.rel = "noopener";
+  floatingWhatsapp.setAttribute("aria-label", "WhatsApp ANNAISI at +86 186 7585 3801");
+  floatingWhatsapp.innerHTML = `
+    <span class="floating-whatsapp-icon" aria-hidden="true">☎</span>
+    <span class="floating-whatsapp-text">
+      <strong>WhatsApp</strong>
+      <small>+86 186 7585 3801</small>
+    </span>
+  `;
+  document.body.appendChild(floatingWhatsapp);
+}
+
 const inquiryForms = document.querySelectorAll("[data-inquiry-form]");
 
 inquiryForms.forEach((form) => {
