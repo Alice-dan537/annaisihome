@@ -3,3 +3,4 @@ qa-screenshots/
 node_modules/
 .env
 .env.*
+.vercel

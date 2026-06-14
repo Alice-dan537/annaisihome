@@ -1,7 +1,8 @@
 {
   "scripts": {
     "dev": "python3 -m http.server 5174",
-    "check": "node scripts/check-site.mjs"
+    "check": "node scripts/check-site.mjs",
+    "vercel-build": "echo 'Static HTML site - no build step required'"
   },
   "dependencies": {},
   "devDependencies": {}
