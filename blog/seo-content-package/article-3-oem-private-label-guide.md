@@ -2,7 +2,7 @@
 
 ## SEO Information
 
-**SEO Title:** OEM Mattress and Compressed Sofa Private Label Guide | ANNAISI
+**SEO Title:** OEM Mattress and Compressed Sofa Private Label Guide | ANNICE HOME
 
 **Meta Description:** A practical guide for importers and retail brands planning OEM mattress, private label mattress, OEM sofa, or compressed sofa programs, from RFQ and samples to inspection and container loading.
 
@@ -135,7 +135,7 @@ Insert a CTA after the sample approval section:
 
 **CTA Title:** Planning an OEM or Private Label Furniture Program?
 
-**CTA Text:** Send your target market, product type, quantity, and packaging needs. ANNAISI can help review mattress and compressed sofa options for your brand.
+**CTA Text:** Send your target market, product type, quantity, and packaging needs. ANNICE HOME can help review mattress and compressed sofa options for your brand.
 
 **Button:** Send Your Requirements
 
@@ -258,9 +258,9 @@ For roll packed mattresses and compressed sofas, the most important point is to 
 
 ## Final CTA
 
-**Start Your OEM Mattress or Compressed Sofa Program with ANNAISI**
+**Start Your OEM Mattress or Compressed Sofa Program with ANNICE HOME**
 
-If you are planning an OEM mattress line, private label mattress program, compressed sofa project, sofa-in-a-box range, or hotel furniture supply plan, send your requirements to ANNAISI. Share your target market, product type, quantity, packaging needs, and branding requirements so our team can prepare practical sourcing options.
+If you are planning an OEM mattress line, private label mattress program, compressed sofa project, sofa-in-a-box range, or hotel furniture supply plan, send your requirements to ANNICE HOME. Share your target market, product type, quantity, packaging needs, and branding requirements so our team can prepare practical sourcing options.
 
 **Button:** Get a Quote
 
@@ -322,7 +322,7 @@ If you are planning an OEM mattress line, private label mattress program, compre
 
 **Position:** After conclusion  
 **CTA Type:** Full-width factory contact block  
-**Title:** Start Your OEM Mattress or Compressed Sofa Program with ANNAISI  
+**Title:** Start Your OEM Mattress or Compressed Sofa Program with ANNICE HOME  
 **Button:** Get a Quote  
 **Link:** `/contact/`
 
@@ -330,7 +330,7 @@ If you are planning an OEM mattress line, private label mattress program, compre
 
 **Trigger Suggestion:** Stay 30 seconds, scroll to 45%, or exit intent  
 **Popup Title:** Need OEM or Private Label Support?  
-**Popup Copy:** Share your product type, target market, quantity, and branding needs. ANNAISI can help review your mattress or compressed sofa program.  
+**Popup Copy:** Share your product type, target market, quantity, and branding needs. ANNICE HOME can help review your mattress or compressed sofa program.  
 **Required Fields:** Name, Email, Phone  
 **Optional Fields:** Company, Country, Product Requirement, Message  
 **Submit Button:** Start OEM Inquiry

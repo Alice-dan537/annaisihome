@@ -120,7 +120,7 @@ Insert a CTA after the “What Importers Should Check” section:
 
 **CTA Title:** Want to Compare Compressed Sofa Packaging for Your Market?
 
-**CTA Text:** Send your target sofa style, size, fabric, quantity, and delivery channel. ANNAISI can help review whether compressed sofa packaging is suitable for your program.
+**CTA Text:** Send your target sofa style, size, fabric, quantity, and delivery channel. ANNICE HOME can help review whether compressed sofa packaging is suitable for your program.
 
 **Button:** Ask for Product Catalog
 
@@ -198,9 +198,9 @@ The right compressed sofa manufacturer should understand product structure, fabr
 
 ## Final CTA
 
-**Develop a Compressed Sofa Program with ANNAISI**
+**Develop a Compressed Sofa Program with ANNICE HOME**
 
-If you are sourcing compressed sofas, vacuum packed sofas, sofa-in-a-box products, sofa beds, or private label sofa lines, send your requirements to ANNAISI. Share your target style, dimensions, fabric, quantity, market, and packaging needs so our team can review practical factory-direct options.
+If you are sourcing compressed sofas, vacuum packed sofas, sofa-in-a-box products, sofa beds, or private label sofa lines, send your requirements to ANNICE HOME. Share your target style, dimensions, fabric, quantity, market, and packaging needs so our team can review practical factory-direct options.
 
 **Button:** Contact Us
 
@@ -262,7 +262,7 @@ If you are sourcing compressed sofas, vacuum packed sofas, sofa-in-a-box product
 
 **Position:** After conclusion  
 **CTA Type:** Full-width contact block  
-**Title:** Develop a Compressed Sofa Program with ANNAISI  
+**Title:** Develop a Compressed Sofa Program with ANNICE HOME  
 **Button:** Contact Us  
 **Link:** `/contact/`
 
@@ -270,7 +270,7 @@ If you are sourcing compressed sofas, vacuum packed sofas, sofa-in-a-box product
 
 **Trigger Suggestion:** Scroll to 40%, stay 30 seconds, or exit intent  
 **Popup Title:** Sourcing Compressed Sofas from China?  
-**Popup Copy:** Tell us your sofa style, fabric, quantity, and delivery channel. ANNAISI can help review vacuum packed sofa and sofa-in-a-box options.  
+**Popup Copy:** Tell us your sofa style, fabric, quantity, and delivery channel. ANNICE HOME can help review vacuum packed sofa and sofa-in-a-box options.  
 **Required Fields:** Name, Email, Phone  
 **Optional Fields:** Company, Country, Product Requirement, Message  
 **Submit Button:** Request Sofa Quote

@@ -67,7 +67,7 @@ export default function InquiryForm({ endpoint = "https://formsubmit.co/ajax/dzh
     try {
       const payload = {
         ...values,
-        _subject: "New ANNAISI B2B Inquiry",
+        _subject: "New ANNICE HOME B2B Inquiry",
         _template: "table",
         _captcha: "false",
       };

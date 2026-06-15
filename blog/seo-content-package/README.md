@@ -1,4 +1,4 @@
-# ANNAISI SEO / GEO / AIO Blog Content Package
+# ANNICE HOME SEO / GEO / AIO Blog Content Package
 
 ## 1. Blog Topic Planning
 
@@ -10,7 +10,7 @@
 
 **Search Intent:** Commercial investigation. The buyer is comparing suppliers and wants to understand how to evaluate factory capability, product construction, compression quality, sample approval, and export packaging before sending an RFQ.
 
-**Why This Blog Fits:** Roll packed mattress keywords are the main SEO entry for ANNAISI. The topic matches Google AI Overview style questions such as “How are roll packed mattresses made?”, “How do I choose a mattress supplier in China?”, and “How long can a mattress stay compressed?” It can attract importers, distributors, Amazon sellers, and private label brands before they submit inquiry details.
+**Why This Blog Fits:** Roll packed mattress keywords are the main SEO entry for ANNICE HOME. The topic matches Google AI Overview style questions such as “How are roll packed mattresses made?”, “How do I choose a mattress supplier in China?”, and “How long can a mattress stay compressed?” It can attract importers, distributors, Amazon sellers, and private label brands before they submit inquiry details.
 
 ### Topic 2
 
@@ -20,7 +20,7 @@
 
 **Search Intent:** Problem-solving and purchase decision. The buyer wants to reduce shipping volume, understand whether compressed sofa packaging is suitable for their market, and compare compressed sofa programs with traditional sofa shipments.
 
-**Why This Blog Fits:** Compressed sofa is ANNAISI’s differentiation point. This blog can serve paid traffic, SEO, and AI search questions such as “How much shipping space can compressed sofas save?”, “Are compressed sofas durable?”, and “What should importers check before ordering sofa in a box products?”
+**Why This Blog Fits:** Compressed sofa is ANNICE HOME’s differentiation point. This blog can serve paid traffic, SEO, and AI search questions such as “How much shipping space can compressed sofas save?”, “Are compressed sofas durable?”, and “What should importers check before ordering sofa in a box products?”
 
 ### Topic 3
 
@@ -59,4 +59,4 @@ Publish third as a trust-building guide for private label and OEM buyers. This a
 - Add internal links near decision points, not only at the end.
 - Add clear CTA after the first major evaluation section and at the end.
 - Use real factory images when available; use AI-generated image drafts only as placeholders until final branded visuals are approved.
-- Avoid claims about certifications, clients, or loading percentages unless ANNAISI can verify them with documents or internal data.
+- Avoid claims about certifications, clients, or loading percentages unless ANNICE HOME can verify them with documents or internal data.

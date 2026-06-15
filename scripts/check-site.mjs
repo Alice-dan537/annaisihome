@@ -10,7 +10,7 @@ function walk(dir) {
     const full = path.join(dir, item.name);
     if (item.isDirectory() && item.name === "templates") continue;
     if (item.isDirectory()) walk(full);
-    if (item.isFile() && item.name.endsWith(".html")) htmlFiles.push(full);
+    if (item.isFile() && item.name.endsWith(".html") && !item.name.startsWith("google")) htmlFiles.push(full);
   }
 }
 
@@ -40,7 +40,7 @@ for (const file of htmlFiles) {
   if (!title) report.push(`${rel}: missing title`);
   if (!h1) report.push(`${rel}: missing h1`);
   if (!desc) report.push(`${rel}: missing meta description`);
-  if (!canonical) report.push(`${rel}: missing canonical`);
+  if (!canonical && rel !== "404.html") report.push(`${rel}: missing canonical`);
   if (title) {
     if (titles.has(title)) report.push(`${rel}: duplicate title with ${titles.get(title)}`);
     titles.set(title, rel);

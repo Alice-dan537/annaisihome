@@ -2,7 +2,7 @@
 
 ## SEO Information
 
-**SEO Title:** How to Choose a Roll Packed Mattress Manufacturer in China | ANNAISI Guide
+**SEO Title:** How to Choose a Roll Packed Mattress Manufacturer in China | ANNICE HOME Guide
 
 **Meta Description:** Learn how importers, distributors, Amazon sellers, and private label brands can evaluate a roll packed mattress manufacturer in China, from construction and compression testing to packaging and shipment inspection.
 
@@ -139,7 +139,7 @@ After the factory capability section, insert a CTA block:
 
 **CTA Title:** Need Help Building a Roll Packed Mattress Program?
 
-**CTA Text:** Send your target size, height, comfort level, order quantity, and packaging requirements. ANNAISI can review your project and suggest practical OEM options for roll packed mattress sourcing.
+**CTA Text:** Send your target size, height, comfort level, order quantity, and packaging requirements. ANNICE HOME can review your project and suggest practical OEM options for roll packed mattress sourcing.
 
 **Button:** Send Your Requirements
 
@@ -214,9 +214,9 @@ For importers, distributors, Amazon sellers, and private label brands, the best 
 
 ## Final CTA
 
-**Build Your Roll Packed Mattress Program with ANNAISI**
+**Build Your Roll Packed Mattress Program with ANNICE HOME**
 
-If you are sourcing roll packed mattresses, memory foam mattresses, pocket spring mattresses, hybrid mattresses, or private label mattress lines, send your requirements to ANNAISI. Share your target market, size, height, quantity, packaging needs, and brand requirements so our team can prepare practical factory-direct options.
+If you are sourcing roll packed mattresses, memory foam mattresses, pocket spring mattresses, hybrid mattresses, or private label mattress lines, send your requirements to ANNICE HOME. Share your target market, size, height, quantity, packaging needs, and brand requirements so our team can prepare practical factory-direct options.
 
 **Button:** Get a Quote
 
@@ -270,7 +270,7 @@ If you are sourcing roll packed mattresses, memory foam mattresses, pocket sprin
 
 **Position:** After conclusion  
 **CTA Type:** Full-width quote block  
-**Title:** Build Your Roll Packed Mattress Program with ANNAISI  
+**Title:** Build Your Roll Packed Mattress Program with ANNICE HOME  
 **Button:** Get a Quote  
 **Link:** `/contact/`
 
@@ -278,7 +278,7 @@ If you are sourcing roll packed mattresses, memory foam mattresses, pocket sprin
 
 **Trigger Suggestion:** Scroll to 40% or stay 30 seconds on page  
 **Popup Title:** Planning a Roll Packed Mattress Order?  
-**Popup Copy:** Send your size, height, comfort level, quantity, and packaging needs. ANNAISI will help review your OEM mattress program.  
+**Popup Copy:** Send your size, height, comfort level, quantity, and packaging needs. ANNICE HOME will help review your OEM mattress program.  
 **Required Fields:** Name, Email, Phone  
 **Optional Fields:** Company, Country, Product Requirement, Message  
 **Submit Button:** Request Mattress Quote

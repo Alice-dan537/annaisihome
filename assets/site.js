@@ -1,12 +1,12 @@
 const whatsappNumber = "8618675853801";
-const whatsappMessage = "Hello ANNAISI, I would like to request a quote for roll packed mattresses or compressed sofas.";
+const whatsappMessage = "Hello ANNICE HOME, I would like to request a quote for roll packed mattresses or compressed sofas.";
 const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
 
 document.querySelectorAll(".button.whatsapp, [data-whatsapp-link]").forEach((link) => {
   link.setAttribute("href", whatsappUrl);
   link.setAttribute("target", "_blank");
   link.setAttribute("rel", "noopener");
-  link.setAttribute("aria-label", "Contact ANNAISI on WhatsApp");
+  link.setAttribute("aria-label", "Contact ANNICE HOME on WhatsApp");
 });
 
 if (!document.querySelector(".floating-whatsapp")) {
@@ -15,7 +15,7 @@ if (!document.querySelector(".floating-whatsapp")) {
   floatingWhatsapp.href = whatsappUrl;
   floatingWhatsapp.target = "_blank";
   floatingWhatsapp.rel = "noopener";
-  floatingWhatsapp.setAttribute("aria-label", "WhatsApp ANNAISI at +86 186 7585 3801");
+  floatingWhatsapp.setAttribute("aria-label", "WhatsApp ANNICE HOME at +86 186 7585 3801");
   floatingWhatsapp.innerHTML = `
     <span class="floating-whatsapp-icon" aria-hidden="true">☎</span>
     <span class="floating-whatsapp-text">
@@ -233,7 +233,7 @@ document.querySelectorAll(".site-header").forEach((header) => {
   mega.innerHTML = `
     <div class="mega-panel">
       <div class="mega-column mega-feature">
-        <p class="mega-label">ANNAISI Product Lines</p>
+        <p class="mega-label">ANNICE HOME Product Lines</p>
         <h3>Mattress and compressed sofa programs for B2B export buyers</h3>
         <p>Fast access to roll packed mattress, OEM mattress, private label mattress, compressed sofa, and sofa in a box sourcing pages.</p>
         <a class="button primary" href="/contact/">Get Free Quote</a>
@@ -241,6 +241,9 @@ document.querySelectorAll(".site-header").forEach((header) => {
       <div class="mega-column">
         <p class="mega-label">Mattress</p>
         <a class="mega-link" href="/products/roll-packed-mattress/"><span>Roll Packed Mattress</span><small>Vacuum compressed / bed in a box</small></a>
+        <a class="mega-link" href="/products/vacuum-packed-mattress/"><span>Vacuum Packed Mattress</span><small>Compressed mattress supplier page</small></a>
+        <a class="mega-link" href="/products/oem-mattress/"><span>OEM Mattress</span><small>Custom mattress manufacturing</small></a>
+        <a class="mega-link" href="/products/mattress-topper/"><span>Mattress Topper</span><small>Private label sleep accessories</small></a>
         <a class="mega-link" href="/products/pocket-spring-mattress/"><span>Pocket Spring Mattress</span><small>Supportive wholesale mattress lines</small></a>
         <a class="mega-link" href="/products/memory-foam-mattress/"><span>Memory Foam Mattress</span><small>Pressure relief and private label comfort</small></a>
         <a class="mega-link" href="/products/hybrid-mattress/"><span>Hybrid Mattress</span><small>Pocket spring plus foam construction</small></a>
@@ -248,6 +251,7 @@ document.querySelectorAll(".site-header").forEach((header) => {
       <div class="mega-column">
         <p class="mega-label">Sofa</p>
         <a class="mega-link" href="/products/compressed-sofa/"><span>Compressed Sofa</span><small>Vacuum packed sofa / compressed couch</small></a>
+        <a class="mega-link" href="/products/vacuum-packed-sofa/"><span>Vacuum Packed Sofa</span><small>Sofa in a box supplier page</small></a>
         <a class="mega-link" href="/products/sofa-bed/"><span>Sofa Bed</span><small>Multifunctional sofa and bed programs</small></a>
         <a class="mega-link" href="/compressed-sofa-manufacturer/"><span>Sofa in a Box Manufacturer</span><small>High-intent ad and SEO landing page</small></a>
       </div>
@@ -298,3 +302,12 @@ document.querySelectorAll(".site-header").forEach((header) => {
     }
   });
 });
+
+
+if (!document.querySelector(".floating-rfq")) {
+  const floatingRfq = document.createElement("a");
+  floatingRfq.className = "floating-rfq";
+  floatingRfq.href = "/contact/";
+  floatingRfq.textContent = "Request Factory Price";
+  document.body.appendChild(floatingRfq);
+}
