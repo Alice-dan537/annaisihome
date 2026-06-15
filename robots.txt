@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.annaisi.com/sitemap.xml
+Sitemap: https://annicehome.com/sitemap.xml
