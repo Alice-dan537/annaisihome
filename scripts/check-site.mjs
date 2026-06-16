@@ -45,10 +45,16 @@ for (const file of htmlFiles) {
     if (titles.has(title)) report.push(`${rel}: duplicate title with ${titles.get(title)}`);
     titles.set(title, rel);
   }
-  for (const src of [...html.matchAll(/src="([^"]+)"/g)].map((m) => m[1])) {
-    if (src.startsWith("/")) {
-      const target = path.join(root, src);
-      if (!fs.existsSync(target)) report.push(`${rel}: missing asset ${src}`);
+  const localAssets = [
+    ...html.matchAll(/src="([^"]+)"/g),
+    ...html.matchAll(/href="([^"]+)"/g),
+  ].map((m) => m[1]);
+
+  for (const asset of localAssets) {
+    if (asset.startsWith("/") && !asset.startsWith("//")) {
+      const assetPath = asset.split(/[?#]/)[0];
+      const target = path.join(root, assetPath);
+      if (!fs.existsSync(target)) report.push(`${rel}: missing asset ${asset}`);
     }
   }
 }
