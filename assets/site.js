@@ -33,7 +33,7 @@ if (!document.querySelector(".contact-person-section")) {
   aliceCard.innerHTML = `
     <article class="factory-contact-card">
       <div class="factory-contact-photo">
-        <img src="/assets/images/alice-factory-contact.jpg" width="220" height="82" loading="lazy" alt="Alice OEM and ODM Sales Manager at ANNICE HOME" />
+        <img src="/assets/images/alice-factory-contact.jpg" width="220" height="150" loading="lazy" alt="Alice OEM and ODM Sales Manager at ANNICE HOME" />
       </div>
       <div class="factory-contact-copy">
         <p class="section-label">Talk to Alice</p>
