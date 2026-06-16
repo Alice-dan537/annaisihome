@@ -26,6 +26,37 @@ if (!document.querySelector(".floating-whatsapp")) {
   document.body.appendChild(floatingWhatsapp);
 }
 
+if (!document.querySelector(".contact-person-section")) {
+  const aliceCard = document.createElement("aside");
+  aliceCard.className = "contact-person-section";
+  aliceCard.setAttribute("aria-label", "Meet your factory contact Alice");
+  aliceCard.innerHTML = `
+    <article class="factory-contact-card">
+      <div class="factory-contact-photo">
+        <img src="/assets/images/alice-factory-contact.jpg" width="220" height="82" loading="lazy" alt="Alice OEM and ODM Sales Manager at ANNICE HOME" />
+      </div>
+      <div class="factory-contact-copy">
+        <p class="section-label">Talk to Alice</p>
+        <h2>Project RFQ Review</h2>
+        <div class="contact-person-meta">
+          <strong>Alice</strong>
+          <span>OEM &amp; ODM Sales Manager</span>
+        </div>
+        <p>Mattress and sofa sourcing support from our Foshan factory.</p>
+        <ul class="factory-contact-points">
+          <li>OEM &amp; ODM support</li>
+          <li>Factory-direct supply</li>
+        </ul>
+        <div class="factory-contact-actions">
+          <a class="button whatsapp" href="${whatsappUrl}" target="_blank" rel="noopener" aria-label="Talk to Alice on WhatsApp">WhatsApp</a>
+          <a class="button primary" href="/contact/">Quote</a>
+        </div>
+      </div>
+    </article>
+  `;
+  document.body.appendChild(aliceCard);
+}
+
 const inquiryForms = document.querySelectorAll("[data-inquiry-form]");
 
 inquiryForms.forEach((form) => {
