@@ -1699,6 +1699,8 @@ a {
 
 .factory-contact-photo {
   width: 100%;
+  padding: 8px 10px 0;
+  background: linear-gradient(180deg, #ffffff 0%, #f7f9fc 100%);
 }
 
 .factory-contact-photo::before {
@@ -1707,11 +1709,11 @@ a {
 
 .factory-contact-photo img {
   width: 100%;
-  height: 72px;
-  object-fit: cover;
-  object-position: 50% 22%;
+  height: 132px;
+  object-fit: contain;
+  object-position: center center;
   border: 0;
-  border-radius: 0;
+  border-radius: 8px 8px 0 0;
   box-shadow: none;
 }
 
@@ -1820,7 +1822,7 @@ a {
   }
 
   .factory-contact-photo img {
-    height: 58px;
+    height: 112px;
   }
 
   .factory-contact-copy {
