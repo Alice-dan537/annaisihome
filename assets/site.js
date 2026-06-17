@@ -1,12 +1,19 @@
 const whatsappNumber = "8618675853801";
 const whatsappMessage = "Hello ANNICE HOME, I would like to request a quote for roll packed mattresses or compressed sofas.";
 const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
+const linkedinUrl = "https://cn.linkedin.com/in/alice-zhou-86966b50";
 
 document.querySelectorAll(".button.whatsapp, [data-whatsapp-link]").forEach((link) => {
   link.setAttribute("href", whatsappUrl);
   link.setAttribute("target", "_blank");
   link.setAttribute("rel", "noopener");
   link.setAttribute("aria-label", "Contact ANNICE HOME on WhatsApp");
+});
+
+document.querySelectorAll(".linkedin-link, .footer-linkedin-link").forEach((link) => {
+  link.setAttribute("href", linkedinUrl);
+  link.setAttribute("target", "_blank");
+  link.setAttribute("rel", "noopener");
 });
 
 if (!document.querySelector(".floating-whatsapp")) {
@@ -37,19 +44,19 @@ if (!document.querySelector(".contact-person-section")) {
       </div>
       <div class="factory-contact-copy">
         <p class="section-label">Talk to Alice</p>
-        <h2>Project RFQ Review</h2>
+        <h2>Meet Alice Zhou</h2>
         <div class="contact-person-meta">
-          <strong>Alice</strong>
-          <span>OEM &amp; ODM Sales Manager</span>
+          <strong>International Sales Director</strong>
+          <span>ANNICE Furniture</span>
         </div>
-        <p>Mattress and sofa sourcing support from our Foshan factory.</p>
+        <p>Roll packed mattress and compressed sofa sourcing support from Foshan, China.</p>
         <ul class="factory-contact-points">
           <li>OEM &amp; ODM support</li>
           <li>Factory-direct supply</li>
         </ul>
         <div class="factory-contact-actions">
+          <a class="button linkedin-button" href="${linkedinUrl}" target="_blank" rel="noopener" aria-label="Connect with Alice Zhou on LinkedIn">LinkedIn</a>
           <a class="button whatsapp" href="${whatsappUrl}" target="_blank" rel="noopener" aria-label="Talk to Alice on WhatsApp">WhatsApp</a>
-          <a class="button primary" href="/contact/">Quote</a>
         </div>
       </div>
     </article>
@@ -338,7 +345,7 @@ document.querySelectorAll(".site-header").forEach((header) => {
 if (!document.querySelector(".floating-rfq")) {
   const floatingRfq = document.createElement("a");
   floatingRfq.className = "floating-rfq";
-  floatingRfq.href = "/contact/";
+  floatingRfq.href = "/request-factory-price/";
   floatingRfq.textContent = "Request Factory Price";
   document.body.appendChild(floatingRfq);
 }
