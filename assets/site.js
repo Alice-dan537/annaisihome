@@ -16,6 +16,26 @@ document.querySelectorAll(".linkedin-link, .footer-linkedin-link").forEach((link
   link.setAttribute("rel", "noopener");
 });
 
+document.addEventListener("click", (event) => {
+  const link = event.target.closest("a");
+  if (!link) return;
+
+  const href = link.getAttribute("href") || "";
+  const text = link.textContent.trim().replace(/\s+/g, " ");
+
+  if (link.matches("[data-whatsapp-link], .button.whatsapp") || href.includes("wa.me")) {
+    window.anniceTrack?.("whatsapp_click", { link_text: text, link_url: href });
+  } else if (link.matches(".linkedin-link, .footer-linkedin-link") || href.includes("linkedin.com")) {
+    window.anniceTrack?.("linkedin_click", { link_text: text, link_url: href });
+  } else if (href.includes("/request-factory-price/")) {
+    window.anniceTrack?.("request_factory_price_click", { link_text: text });
+  } else if (href.includes("/contact/")) {
+    window.anniceTrack?.("contact_page_click", { link_text: text });
+  } else if (/catalog/i.test(text)) {
+    window.anniceTrack?.("download_catalog_click", { link_text: text, link_url: href });
+  }
+});
+
 if (!document.querySelector(".floating-whatsapp")) {
   const floatingWhatsapp = document.createElement("a");
   floatingWhatsapp.className = "floating-whatsapp";
@@ -134,6 +154,9 @@ inquiryForms.forEach((form) => {
         status.textContent = "Please complete the required fields before submitting.";
         status.classList.add("is-visible", "is-error");
       }
+      window.anniceTrack?.("inquiry_form_validation_error", {
+        form_page: window.location.pathname,
+      });
       form.querySelector(".is-invalid")?.focus();
       return;
     }
@@ -156,6 +179,11 @@ inquiryForms.forEach((form) => {
         status.classList.remove("is-error");
         status.classList.add("is-visible");
       }
+      window.anniceTrack?.("inquiry_form_submit_success", {
+        form_page: window.location.pathname,
+        product_interest: formData.get("interest") || "",
+        country: formData.get("country") || "",
+      });
       form.reset();
     };
 
@@ -164,6 +192,10 @@ inquiryForms.forEach((form) => {
         status.textContent = message || "Submission failed. Please email dzhou722@gmail.com or try again later.";
         status.classList.add("is-visible", "is-error");
       }
+      window.anniceTrack?.("inquiry_form_submit_error", {
+        form_page: window.location.pathname,
+        error_message: message || "Submission failed",
+      });
     };
 
     const finish = () => {
