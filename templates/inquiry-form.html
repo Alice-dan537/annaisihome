@@ -13,7 +13,7 @@
     <span class="field-error" data-error-for="email"></span>
   </label>
   <label>
-    <span class="field-label">Phone <span class="required-mark">Required</span></span>
+    <span class="field-label">Phone / WhatsApp <span class="required-mark">Required</span></span>
     <input required type="tel" name="phone" autocomplete="tel" inputmode="tel" placeholder="+1 555 123 4567" />
     <span class="field-error" data-error-for="phone"></span>
   </label>
@@ -28,6 +28,19 @@
     <span class="field-error" data-error-for="country"></span>
   </label>
   <label>
+    <span class="field-label">Business Type</span>
+    <select name="business_type">
+      <option value="">Select buyer type</option>
+      <option>Importer / Distributor</option>
+      <option>Wholesaler</option>
+      <option>Retail Store</option>
+      <option>E-commerce Seller</option>
+      <option>Private Label Brand</option>
+      <option>Hotel / Apartment Project</option>
+    </select>
+    <span class="field-error" data-error-for="business_type"></span>
+  </label>
+  <label>
     <span class="field-label">Product Requirement</span>
     <select name="interest">
       <option value="">Select product interest</option>
@@ -40,6 +53,28 @@
       <option>OEM Custom Program</option>
     </select>
     <span class="field-error" data-error-for="interest"></span>
+  </label>
+  <label>
+    <span class="field-label">Estimated Quantity</span>
+    <input name="quantity" placeholder="Example: 1x40HQ, 300 pcs, sample order" />
+    <span class="field-error" data-error-for="quantity"></span>
+  </label>
+  <label>
+    <span class="field-label">Target Market</span>
+    <input name="target_market" placeholder="Country, channel, or project type" />
+    <span class="field-error" data-error-for="target_market"></span>
+  </label>
+  <label>
+    <span class="field-label">Packaging Need</span>
+    <select name="packaging_need">
+      <option value="">Select packing need</option>
+      <option>Roll packed / vacuum compressed</option>
+      <option>Sofa in a box</option>
+      <option>Private label carton</option>
+      <option>Standard export packing</option>
+      <option>Need recommendation</option>
+    </select>
+    <span class="field-error" data-error-for="packaging_need"></span>
   </label>
   <label class="full">
     <span class="field-label">Message</span>
